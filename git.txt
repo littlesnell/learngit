@@ -1,0 +1,5 @@
+ git push (-u) origin master
+ 第一次上传加-u
+git add 
+git commit -m “  ”
+git status
