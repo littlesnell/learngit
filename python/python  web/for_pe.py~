@@ -1,0 +1,5 @@
+from flask import request
+searchword = request.args.get('user', '')
+print name
+searchword = request.args.get('key', '')
+print key

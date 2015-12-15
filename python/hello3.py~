@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# coding=utf-8
+a=raw_input('name')
+b=int(raw_input('score'))
+class Student(object):
+    def __init__ (self,name,score):
+        self.__name=name
+        self.__score=score
+    def print_score(self):
+        print '%s: %s' % (self.__name,self.__score)
+c=Student(a,b)
+print c
+c.print_score()
